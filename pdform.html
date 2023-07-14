@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.reg-detail{
+			position: relative;
+			width: 100%;
+			height: 40px;
+			background-color: skyblue;
+		}
+		.reg-detail .sub{
+			position: absolute;
+			width: 10%;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			top: 15px;
+			height: 25px;
+			padding: 20px,5px,5px,5px;
+			left: 15px;
+			background-color: white;
+		}
+		.personal{
+			width: 15%;
+			text-decoration: underline;
+			
+		}
+		.notice{
+			width: 95%;
+			margin: auto;
+			padding: 10px;
+			align-content: center;
+			background-color: wheat;
+			border: 10px solid floralwhite;
+		}
+		p:last-child{
+			color: blue;
+		}
+		.main{
+				margin-top: 20px;
+				margin-left: 40px;
+				font-weight: bold;
+		}
+		input[type='text']{
+				background-color: wheat;
+				width: 80%px;
+				text-align: left;
+				padding: 7px;
+				border: none;
+				margin: 10px;
+		}
+		input[type='Datetime-local']{
+				background-color: wheat;
+				width: 80%px;
+				text-align: left;
+				padding: 7px;
+				border: none;
+				margin: 10px;
+		}
+		select{
+			background-color: wheat;
+				width: 80%px;
+				text-align: left;
+				padding: 7px;
+				border: none;
+				margin: 10px;
+		}
+		button{
+			padding: 10px;
+			width: 10%;
+			background-color: lightblue;
+			color: white;
+			font-weight: bold;
+			font-size: 20px;
+			border: none;
+		}
+		
+
+	</style>
+</head>
+<body><table width="100%">
+       <tr>
+       	<td>
+        <table cellspacing="5" cellpadding="5" width="100%" bgcolor="#090d42">
+            <tr>
+            	<td> <img src="icai_logo.png" width="80%" height="100px"></td>
+            	<td color="white"><h2><font color="white">THE INSTITUTE OF CHARTERED ACCOUNTANTS OF INDIA</font></h2>
+            	<h3><font color="white"></font>(SETUP BY AN ACT OF PARLIAMENT)</h3></td>
+                <td><a href="#">
+                        <font size="3" color="red">Contact us</font>
+                    </a></td>
+                <td><a href="about.html">
+                        <font size="3" color="red"><a href="indax.html">Back</font>
+                    </a></td>
+                </tr>            
+        </table>
+</td>
+</tr>
+	</table>
+<div class="reg-detail">
+	<div class="sub">
+		<font size="4" color="black">Registration Detaile</font>		
+	</div>
+
+</div>
+    <content>
+		
+			<p class="personal"><font color="black" size=5>Personal Details</font></p>
+			<h2>IMPORTANT NOTE:</h2>
+			<div class="notice">
+				<p>
+				1.Please enter your SALUTATION , NAME, DOB, GENDER as per your 10th / 12th CERTIFICATE.<br></p>
+				<p>2.NO CHANGE ALLOWED AFTER FORM SUBMISSION.<br></p>
+				<p>3.Please enter applicant's own MOBILE NO. and E-MAIL id as all important communications and OTP will be sent to applicant.<br></p>
+				<p>4.You will get a separate mail communication from Centralized Dispatch System for Study Material, through SMS / Email in 2-3 days after making the successful payment.<br></p>
+				<p>5.International Mobile No will get OTP on email id.<br></p>
+			</p>
+		</div>
+	</content>
+
+	<div class="main">
+	<table class="table" cellpadding="10px" cellspacing="10px" width="90%" align="center">
+		<tr>
+			<td><label>Salutation*</label><br>
+			<select>
+				<option>Please Select Salutation</option>
+				<option>Select</option>
+				<option>Mr.</option>
+				<option>Mrs.</option>
+				<option>Miss.</option>
+				<option>Mx.</option>
+			</select></td>
+			<td><label>First Name*</label><br>
+			<input type="text" name="myname" placeholder="First Name"></td>
+			<td><label>Middle Name</label><br>
+			<input type="text" name="myname" placeholder="Middle Name"></td>
+			<td><label>Last Name</label><br>
+			<input type="text" name="myname" placeholder="Last Name"></td>
+		</tr>
+		<tr>
+			<td><label>Gender*</label><br>
+			<input type="radio" name="myname"> Male<input type="radio" name="myname"> Female <input type="radio" name="myname"> Transgender</td>
+			<td><label>Date Of Birth (DD/MM/YYYY)*</label><br>
+			<input type="Datetime-local" name="DOB" placeholder="DD/MM/YYYY"></td>
+			<td><label>E-Mail Address*</label><br>
+			<input type="text" name="email" placeholder="E-Mail Address"></td>
+			<td><label>Confirm E-Mail Address*</label><br>
+			<input type="text" name="email" placeholder="Confirm E-Mail Address"></td>
+		</tr>
+
+		<tr>
+			<td><label>Country Code*</label><br>
+		<select>
+			<option>Please Select Country Code</option>
+			<option>INDIA(91)</option>
+			<option>AFGHANISTAN(93)</option>
+			<option>ARGENTINA(54)</option>
+			<option>AUSTRALIA(61)</option>
+			<option>AUSTRIA(43)</option>
+		</select></td>
+		<td><label>Mobile Number*</label><br>
+		<input type="text" name="mob_no" placeholder="Mobile Number"></td>
+		<td><label>Confirm Country Code*</label><br>
+		<input type="text" name="code" placeholder="Confirm Country Code"></td>
+		<td><label>Confirm Mobile Number*</label><br>
+		<input type="text" name="mob_no" placeholder="Confirm Mobile Number"></td>
+		</tr>
+		<tr>
+			<td><label>Country Name*</label><br>
+			<select>
+				<option>Please Select Country Name</option>
+				<option>INDIA</option>
+				<option>AFGHANISTAN</option>
+				<option>AUSTRALIA</option>
+				<option>AUSTRIA</option>
+				<option>BANGLADESH</option>
+			</select></td>
+			<td><label>Nationality *</label><br>
+			<select>
+				<option>INDIAN</option>
+				<option>AFGHANISTAN</option>
+				<option>AUSTRALIA</option>
+				<option>AUSTRIA</option>
+				<option>BANGLADESH</option>
+			</select></td>
+		</tr>
+		
+	</table>
+	<center><button>Generate OTP</button></center>
+</div>
+</body>
+
+</html>
